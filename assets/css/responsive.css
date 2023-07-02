@@ -109,6 +109,15 @@
     .hero .content img {
         width: 80%;
     }
+
+    .feature__content--title,
+    .feature__content--desc {
+        width: 80%;
+    }
+
+    .feature__content--group {
+        column-gap: 120px;
+    }
 }
 
 /* Tablet */
@@ -119,5 +128,10 @@
 @media screen and (max-width: 767px) {
     .hero .content {
         display: none;
+    }
+
+    .feature__content--group {
+        row-gap: 60px;
+        grid-template-columns: 1fr 1fr;
     }
 }
