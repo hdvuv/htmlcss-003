@@ -697,3 +697,43 @@ a {
 }
 
 /* ========== Footer ==========*/
+.footer {
+    padding-top: 131px;
+    padding-bottom: 50px;
+}
+
+.footer__body__row {
+    display: flex;
+    column-gap: 140px;
+}
+
+.footer ul li:first-child {
+    margin: 0 0 5px;
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.footer ul li {
+    margin-top: 20px;
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+}
+
+.footer ul li img {
+    margin-right: 5px;
+}
+
+.copyright {
+    margin-top: 80px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}

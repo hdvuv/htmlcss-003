@@ -14,6 +14,10 @@
     .show-on-mobile {
         display: none;
     }
+
+    .footer__body__row {
+        gap: 120px;
+    }
 }
 
 /* Tablet & Mobile */
@@ -174,6 +178,10 @@
     .cta .btn {
         margin-left: 15%;
     }
+
+    .footer__body__logo {
+        display: none;
+    }
 }
 
 /* Tablet */
@@ -186,6 +194,12 @@
     .feature__content--group {
         row-gap: 60px;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .footer__body__row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 60px;
     }
 }
 
@@ -229,5 +243,11 @@
 
     .cta .btn {
         margin-left: 5%;
+    }
+
+    .footer__body__row {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 60px;
     }
 }
