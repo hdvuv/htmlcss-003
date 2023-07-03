@@ -624,6 +624,13 @@ a {
 .avatars__author {
     border-radius: 50%;
     position: absolute;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.avatars__author:hover {
+    transform: scale(1.2);
+    overflow: hidden;
 }
 
 .avatars__author.ps1 {
