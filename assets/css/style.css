@@ -521,4 +521,31 @@ a {
     left: 17px;
 }
 
+/* ========== Countdown ==========*/
+.countdown {
+    margin-top: 265px;
+}
+
+.countdown__content {
+    width: 74%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 200px;
+}
+
+.countdown__content--item .quantity {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.countdown__content--item .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
 /* ========== Footer ==========*/

@@ -139,6 +139,11 @@
         font-weight: 700;
         text-decoration: underline;
     }
+
+    .countdown__content {
+        width: 100%;
+        gap: 50px;
+    }
 }
 
 /* Tablet */
@@ -163,5 +168,19 @@
     .course__body--group {
         grid-template-columns: 1fr;
         row-gap: 120px;
+    }
+
+    .countdown__content {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .countdown__content--item .quantity {
+        font-size: 5rem;
+        font-weight: 700;
+    }
+
+    .countdown__content--item .desc {
+        font-size: 1.4rem;
     }
 }
