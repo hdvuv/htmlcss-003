@@ -170,6 +170,10 @@
     .quote__icons {
         justify-content: center;
     }
+
+    .cta .btn {
+        margin-left: 15%;
+    }
 }
 
 /* Tablet */
@@ -221,5 +225,9 @@
 
     .avatars {
         display: none;
+    }
+
+    .cta .btn {
+        margin-left: 5%;
     }
 }

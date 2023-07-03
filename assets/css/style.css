@@ -44,6 +44,7 @@ a {
     text-align: center;
     font-size: 1.8rem;
     transition: 0.4s ease-in-out;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -659,6 +660,40 @@ a {
     background-color: #b1dfdc;
     bottom: 29px;
     right: 32px;
+}
+
+/* ========== CTA ==========*/
+.cta {
+    margin-top: 130px;
+    background-color: #def6f5;
+}
+
+.cta__body {
+    padding-top: 76px;
+    padding-bottom: 88px;
+    display: flex;
+    align-items: center;
+}
+
+.cta .content__title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.cta .content__desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.cta .btn {
+    margin-left: 36%;
+    padding: 25px 41px;
+    border: none;
 }
 
 /* ========== Footer ==========*/
